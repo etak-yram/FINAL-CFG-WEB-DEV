@@ -7,6 +7,7 @@
 
 body, html {
   height: 100vh;
+  background-color:#faf3e0;
 }
 
 
@@ -127,7 +128,10 @@ main-img {
 main {
   grid-area: main;
   background-color: #faf3e0;
+  display: flex;
+  padding-left: 100px;
   text-align: center;
+  width: 800px;
 }
 
 main p {
